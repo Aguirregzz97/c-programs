@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+struct Person {
+  char sName[30];
+  char sLastName[30];
+  int iAge;
+  char sGender[10];
+  char sId[12];
+};
+
+int main() {
+  struct Person person;
+  printf("Teclea tu nombre: ");
+  scanf("%s", &person.sName);
+}
