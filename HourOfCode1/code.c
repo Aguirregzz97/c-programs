@@ -2,23 +2,23 @@
 #include <time.h>
 
 int main() {
-  int seed = time(NULL);
-  int m = 1232;
-  int c = 10;
-  int a = 1514;
-  int loop;
-  int low;
-  int high;
+  int iSeed = time(NULL);
+  int iM = 1232;
+  int iC = 10;
+  int iA = 1514;
+  int iLoop;
+  int iLow;
+  int iHigh;
   printf("Cuantos numeros random quieres?\n");
-  scanf("%d", &loop);
+  scanf("%d", &iLoop);
   printf("Dame tu rango menor\n");
-  scanf("%d", &low);
+  scanf("%d", &iLow);
   printf("Dame tu rango mayor\n");
-  scanf("%d", &high);
+  scanf("%d", &iHigh);
 
 
-  for (int i = 0; i < loop; i++) {
-    seed = ((a * seed) + c) % m;
-    printf("%d\n", (seed % (high - low)) + low);
+  for (int i = 0; i < iLoop; i++) {
+    iSeed = ((iA * iSeed) + iC) % iM;
+    printf("%d\n", (iSeed % (iHigh - iLow)) + iLow);
   }
 }
