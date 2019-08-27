@@ -1,3 +1,8 @@
+// Andres Aguirre Gonzalez A01039656
+// HourOfCode1 random numbers
+// 27/08/2019
+
+
 #include <stdio.h>
 #include <time.h>
 
