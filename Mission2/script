@@ -1,0 +1,3 @@
+#!/bin/bash
+today=$(date +%Y%m%d)
+sed -e 's/Beowulf/Andres/g' -e 's/Grendel/Salvador/g' -e 's/Danes/Aulas3/g' -e "s/yyyymmdd/${today}/g" book.txt > new.txt
