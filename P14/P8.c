@@ -31,7 +31,3 @@ void getUnionInfo() {
 	printf("Your double %lf storage size is %lu bytes, I can read any number from %lf to %lf in this data type.\n",
 		data.d, sizeof data.d, -DBL_MAX, DBL_MAX);
 }
-
-int main() {
-  getUnionInfo();
-}
